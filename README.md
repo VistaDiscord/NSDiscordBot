@@ -24,7 +24,7 @@ Checks delays and cancelled train rides
 2. Install the required dependencies:
     - You'll need to install some pip plugins:
     ```bash
-    pip install discord.py aiohttp asyncio datetime pytz
+    pip install discord.py aiohttp asyncio datetime pytz pymongo
     ```
 
 3. Change the following lines:
@@ -33,7 +33,7 @@ Checks delays and cancelled train rides
     NS_API_KEY = your-NS-API-Key
     ```
 
-4. Replace `'TOKEN'` with your Discord bot token and `NSAPI` with the APi Key of the NS.
+4. Replace `'TOKEN'` with your Discord bot token and `NSPRIMARYKEY` with the APi Key of the NS.
 
 ### Usage
 
